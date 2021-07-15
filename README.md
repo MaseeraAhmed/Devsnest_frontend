@@ -5,9 +5,9 @@ Day 2 - https://6ln30.csb.app/
 
 Day 3 - https://0zpoe.csb.app/
 
-Day 4 - Clock - https://1cdk8.csb.app/ ( https://clockcss.netlify.app/ )
+Day 4 - Clock - https://1cdk8.csb.app/ ( https://clockcss.netlify.app/ ) https://maseeraahmed.github.io/Devsnest_frontend/frontend_day4/
 
-Day 5 - https://jr0yt.csb.app/
+Day 5 - https://jr0yt.csb.app/ ( https://maseeraahmed.github.io/Devsnest_frontend/Frontend_day5/ )
 
 Day 6 - https://rkye2.csb.app/
 
