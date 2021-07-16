@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTw_NMu_O6K71BZGb9p1m85dqyq_8_-O5CDcg&usqp=CAU);
+  background-size: cover
+}
+
+.App {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  background: #00000071;
+  height: 10vh;
+  width: 10vh;
+  font-size: 5vh;
+  margin: 2vh;
+  border: none;
+  border-radius: 22px;
+  color: #d8dee9;
+  box-shadow: rgb(252 252 252 / 24%) 0px 0px 20px 4px;
+  transition: 0.2s;
+}
+
+button:hover {
+  background: #9762faa9;
+  height: 11vh;
+  width: 10vh;
+  font-size: 5vh;
+  margin: 2vh;
+  border: none;
+  border-radius: 20px;
+  color: #d8dee9;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  
+}
