@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #330033;
+  background-image: url("https://imagesvc.meredithcorp.io/v3/mm/gif?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F44%2F2021%2F05%2F21%2Fv6-is-a-grain-free-diet-healthy.gif");
+  background-size: cover;
+
+}
+
+.form {
+  width: 50%;
+  padding: 10px;
+  margin: auto;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.inputs {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+}
+
+.form input {
+  padding: 5px 10px;
+  margin: 5px;
+  font-size: 1rem;
+  width: 50%;
+  font-weight: 400;
+}
+
+.submit {
+  padding: 10px;
+  outline: none;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 5px 3px 7px 0px rgb(128 128 128 / 74%);
+  width: 100%;
+  background-color: #0787ffa2;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+.submit:hover {
+  box-shadow: 0 6px 18px -2px rgba(128, 128, 128, 0.925);
+}
+
+.submit:active {
+  transform: translateY(0.5px);
+}
+
+.items {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 600px) {
+  .form {
+    width: 90%;
+  }
+
+  .inputs {
+    flex-direction: column;
+  }
+
+  .form input {
+    width: 100%;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+  }
+}
+
+@media (min-width: 601px) AND (max-width: 1024px) {
+  .form {
+    width: 80%;
+  }
+
+  .form input {
+    width: 100%;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+
+  }
+}
