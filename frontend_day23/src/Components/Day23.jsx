@@ -2,20 +2,10 @@
 import useFetch from './useFetch';
 import useToggle from './useToggle';
 
-// const Title = styled.h1`
-//   color: red;
-//   font-size: 30px;
-// `;
-
-// const Wrapper = styled.section`
-//   padding: 4em;
-//   background: #291a01;
-//   color: yellow;
-// `;
 
 const Day23 = () => {
-  const [data2] = useFetch(`https://jsonplaceholder.typicode.com/todos/5`);
-  const [data3] = useFetch(`https://jsonplaceholder.typicode.com/todos/8`);
+  const [data2] = useFetch(`https://jsonplaceholder.typicode.com/todos/55`);
+  const [data3] = useFetch(`https://jsonplaceholder.typicode.com/todos/44`);
 
   const [myText, setMyText] = useToggle();
 
@@ -35,7 +25,6 @@ const Day23 = () => {
           {myText ? 'Toggled' : 'Click to Toggle'}
         </button>
       </div>
-        {/* <Title>Chaitanya</Title> */}
 
 
     </div>

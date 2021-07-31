@@ -10,7 +10,7 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* background-color: rgb(255, 204, 252); */
+  background-color: rgba(85, 83, 84, 0.979);
 }
 
 header {
@@ -39,32 +39,41 @@ nav ul {
   justify-content: space-around;
   align-items: center;
   height: 40px;
-  background-color: rgb(28, 57, 136);
+  background-color: rgb(252, 166, 199);
   border-radius: 20px;
+  box-shadow: 2px 2px 5px rgb(3, 14, 180);
+}
+nav :hover{
+  -webkit-transform: translateY(8px);
+  transform: translateY(8px);
+  transform: rotateY(180deg);
+
 }
 
 nav ul li a {
-  color: #fff;
+  color: rgb(19, 3, 243);
 }
 
 section {
   text-align: center;
 }
 
-/* @media screen and (min-width: 960px) {
-  main {
-    color: red;
-  }
-} */
-/* 
-@media screen and (min-width: 500px) {
-  main {
-    color: red;
-  }
-}
+button {
+  width: 100%;
+  height: 40px;
+  background-color: rgb(252, 166, 199);
+  border-radius: 20px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+  margin: 0;
+  border: none;
+  cursor: pointer;
 
-@media screen and (min-width: 300px) {
-  main {
-    color: red;
-  }
-} */
+}
+button :hover{
+  background-color: rgb(252, 166, 199);
+  transform: rotateY(180deg);
+
+}
