@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url("https://cdn5.vectorstock.com/i/1000x1000/99/54/white-paper-material-design-wallpaper-vector-5629954.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
