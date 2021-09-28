@@ -1,0 +1,15 @@
+.App{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  height: 30rem;
+  justify-content: space-between;
+}
+
+.image_card{
+  background-image: url('https://thumbs.dreamstime.com/b/background-gradient-sunset-sky-sunrise-weather-blur-bright-light-145139610.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+ font-weight: bolder;
+
+}
