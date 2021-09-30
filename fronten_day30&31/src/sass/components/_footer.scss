@@ -1,0 +1,34 @@
+.footer {
+  padding: 60px 0;
+  box-shadow: black 1240px 18px;
+  font-size: 1.5rem;
+
+  &__logo {
+    height: 38px;
+  }
+
+  &__about {
+    p {
+      margin-left: 3rem;
+      margin-bottom: 2rem;
+    }
+    @include mobile {
+      margin-bottom: 1rem;
+    }
+  }
+
+  &__title {
+    text-transform: uppercase;
+    margin-left: 3rem;
+    margin-bottom: 2rem;
+    font-weight: 600;
+    color: $main-color;
+  }
+
+  &__content {
+    p {
+      margin-left: 3rem;
+      margin-bottom: 1.25rem;
+    }
+  }
+}
